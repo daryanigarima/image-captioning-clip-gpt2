@@ -23,6 +23,8 @@ Pick the **Python (clipcap)** kernel and run the notebooks in order:
  The notebook uses the Apple-silicon GPU (`mps`), a CUDA GPU, or the CPU, whichever is available.
 
 ## Setup (Google Colab)
+[Open the training notebook in Colab](https://colab.research.google.com/github/daryanigarima/image-captioning-clip-gpt2/blob/main/Sample_Test_Runs_ClipCap.ipynb). To skip rerunning notebook 1 there, upload `colab_bundle.zip` (the phase 1 outputs) to `MyDrive/image-captioning/` first.
+
 Upload the notebook, choose *Runtime → Change runtime type → T4 GPU*, and run all cells. Outputs are saved to `MyDrive/image-captioning` on Google Drive.
 
 ## First run
