@@ -1,0 +1,17 @@
+# Core DL stack
+torch>=2.2
+torchvision>=0.17
+transformers>=4.44        # CLIP + GPT-2
+datasets>=2.20            # Flickr30k via Hugging Face (streaming)
+accelerate>=0.33
+# Data / utils
+pillow
+pandas
+numpy
+matplotlib
+tqdm
+scikit-learn
+# Notebook
+jupyterlab
+ipykernel
+ipywidgets
